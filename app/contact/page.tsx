@@ -67,6 +67,7 @@ export default function Contact() {
                 </p>
               </div>
             </div>
+            {/* Social links */}
             <div className="social-icons flex flex-row space-x-8">
               <a
                 href={userData.socialLinks.facebook}

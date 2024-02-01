@@ -24,7 +24,7 @@ const Navbar = () => {
   };
   return (
     <>
-      <div className="flex mx-auto max-w-3xl  font-semibold justify-between bg-white dark:bg-gray-800 rounded-full p-2 mt-10">
+      <div className="flex mx-auto max-w-6xl px-4 py-10 md:py-20 font-semibold justify-between">
         {/* Company Logo or Brand Name */}
         <div className="mr-10 pl-2 whitespace-nowrap">
           <Link href="/">Tushar Nagar</Link>
