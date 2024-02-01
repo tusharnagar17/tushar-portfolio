@@ -16,5 +16,8 @@ const config: Config = {
     },
   },
   plugins: [],
+  darkMode: "class",
+  // tailwind.config.js
 };
+
 export default config;
