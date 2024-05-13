@@ -1,0 +1,6 @@
+# file to ignore
+.next/
+node_modules/
+public/
+
+# file to not ignore
