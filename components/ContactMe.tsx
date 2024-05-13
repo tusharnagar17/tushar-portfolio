@@ -39,7 +39,7 @@ export default function ContactMe() {
         id="contact"
       >
         <div className="w-full md:max-w-5xl mx-auto p-4 md:p-20 ">
-          <div className="text-5xl font-semibold text-center">Contact Me</div>
+          <div className="text-5xl font-semibold text-center">Contact :</div>
           <div className="md:flex md:justify-between my-10 gap-20">
             <div>
               <div className="text-gray-700  my-4  py-2">
