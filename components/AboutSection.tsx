@@ -7,7 +7,7 @@ import { SiTicktick } from 'react-icons/si'
 const AboutSection = () => {
   return (
     <div className="max-w-6xl mx-auto my-2 md:flex gap-4">
-      <div className="bg-violet-200 flex justify-center w-1/2 items-center md:px-20 rounded-3xl m-2">
+      <div className="bg-violet-200 flex justify-center md:w-1/2 py-2 items-center md:px-20 rounded-3xl m-2">
         <div className="">
           <Image
             src="/profile.jpeg"
@@ -36,12 +36,12 @@ const AboutSection = () => {
           <div className="text-md">
             As a full-stack developer, I specialize in crafting end-to-end
             solutions that bring ideas to life. From conceptualization to
-            deployment, I'm involved in every stage of the development process,
-            ensuring that projects are delivered on time and to the highest
-            standards.
+            deployment. I&apos;m involved in every stage of the development
+            process, ensuring that projects are delivered on time and to the
+            highest standards.
           </div>
         </div>
-        <div className="bg-violet-200 rounded-xl py-4 md:px-12 m-2">
+        <div className="bg-violet-200 rounded-xl py-4 px-4 md:px-12 m-2">
           <div className="text-2xl font-bold">What can i do?</div>
 
           <div className="">
@@ -64,7 +64,7 @@ const AboutSection = () => {
               Proficient in React Native, I develop cross-platform mobile apps,
               leveraging Firebase for seamless backend services. Let me
               efficiently bring your project ideas to life, ensuring a seamless
-              user experience across all platforms."
+              user experience across all platforms.
             </div>
           </div>
         </div>

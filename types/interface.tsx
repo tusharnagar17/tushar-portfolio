@@ -5,6 +5,7 @@ type ProjectDataTypes = {
   githubLink: string
   liveLink?: string
   imageLink?: string
+  category?: string[]
 }
 
 export default ProjectDataTypes

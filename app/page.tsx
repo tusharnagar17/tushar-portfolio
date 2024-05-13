@@ -13,10 +13,9 @@ export default function Home() {
   // 5. Upload to vercel.
 
   return (
-    <main>
+    <main className="">
       <HeroSection />
       <AboutSection />
-
       <Projects />
       <ContactMe />
     </main>

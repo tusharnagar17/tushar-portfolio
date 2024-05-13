@@ -3,12 +3,46 @@ import ProjectDataTypes from '@/types/interface'
 const projectList: ProjectDataTypes[] = [
   {
     title: 'React Native Job App',
-    description: 'description about react native job app',
+    description:
+      'React-native-job-app is a app built with free RAPID API key. This app helps in listing jobs, search job and add them to favourites. ..',
     githubLink: 'https://github.com/tusharnagar17/React-Native-Job-app',
-    techStack: ['react-native', 'css'],
+    techStack: ['react-native', 'styled components', 'expo', 'javascript'],
     liveLink: '',
     imageLink:
-      'https://user-images.githubusercontent.com/97445793/226334332-dafc12d6-bdc0-42ba-bd53-d18728cfb0c3.jpeg',
+      'https://github.com/tusharnagar17/React-Native-Job-app/raw/main/assets/github.jpg',
+    category: ['all', 'app'],
+  },
+  {
+    title: 'expenseTracker',
+    description:
+      'Expense Tracker is a mobile application built with React Native that helps users easily track their expenses on the go',
+    githubLink: 'https://github.com/tusharnagar17/expenseTracker',
+    techStack: ['redux', 'expo', 'styled components', 'typescript'],
+    liveLink: '',
+    imageLink:
+      'https://github.com/tusharnagar17/expenseTracker/raw/main/asset/snapshot/1.jpg',
+    category: ['all', 'app'],
+  },
+  {
+    title: 'coinTX',
+    description:
+      'CoinTX is your one-stop destination for staying updated on the latest cryptocurrency trends and statistics',
+    githubLink: 'https://github.com/tusharnagar17/coinTX',
+    techStack: ['tailwindCSS', 'typescript', 'react.js', 'chart.js', 'ShadCN'],
+    liveLink: 'https://cointx.vercel.app/',
+    imageLink:
+      'https://github.com/tusharnagar17/coinTX/raw/main/public/github/3.jpg',
+    category: ['all', 'landing page'],
+  },
+  {
+    title: 'codeit',
+    description: 'Landing page for app development agency named Codeit',
+    githubLink: 'https://github.com/tusharnagar17/coinTX',
+    techStack: ['tailwindCSS', 'typescript', 'next.js'],
+    liveLink: 'https://codeit-tech.vercel.app/',
+    imageLink:
+      'https://github.com/tusharnagar17/codeit/raw/main/public/project/codeit/1.png',
+    category: ['all', 'landing page'],
   },
 ]
 export default projectList

@@ -34,7 +34,10 @@ export default function ContactMe() {
 
   return (
     <>
-      <div className="bg-gradient-to-r from-gray-100 to-gray-200" id="contact">
+      <div
+        className="bg-gradient-to-r from-gray-100 to-gray-200 my-2"
+        id="contact"
+      >
         <div className="w-full md:max-w-5xl mx-auto p-4 md:p-20 ">
           <div className="text-5xl font-semibold text-center">Contact Me</div>
           <div className="md:flex md:justify-between my-10 gap-20">
@@ -78,7 +81,7 @@ export default function ContactMe() {
             <div className="rounded-xl bg-sky-100 border-2 border-blue-400  mt-10 md:mt-0 text-gray-900 px-2 md:px-20 py-10">
               <form ref={form} onSubmit={sendEmail}>
                 <div className="block w-full">
-                  <label className='font-semibold'>Name :</label>
+                  <label className="font-semibold">Name :</label>
                   <input
                     type="text"
                     name="client_name"
@@ -87,7 +90,7 @@ export default function ContactMe() {
                   />
                 </div>
                 <div className="block w-full">
-                  <label className='font-semibold'>Email :</label>
+                  <label className="font-semibold">Email :</label>
                   <input
                     type="email"
                     name="client_email"
@@ -96,7 +99,7 @@ export default function ContactMe() {
                   />
                 </div>
                 <div className="block w-full">
-                  <label className='font-semibold'>Message: </label>
+                  <label className="font-semibold">Message: </label>
                   <textarea
                     name="client_message"
                     className="outline-none w-full max-w-full md:max-w-lg hover:ring ring-sky-300 rounded-md border border-1 px-2 py-1 my-2"
