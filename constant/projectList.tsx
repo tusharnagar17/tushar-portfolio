@@ -10,7 +10,7 @@ const projectList: ProjectDataTypes[] = [
     liveLink: '',
     imageLink:
       'https://github.com/tusharnagar17/React-Native-Job-app/raw/main/assets/github.jpg',
-    category: ['all', 'app'],
+    category: ['all', 'app', 'react-native'],
   },
   {
     title: 'expenseTracker',
@@ -21,7 +21,7 @@ const projectList: ProjectDataTypes[] = [
     liveLink: '',
     imageLink:
       'https://github.com/tusharnagar17/expenseTracker/raw/main/asset/snapshot/1.jpg',
-    category: ['all', 'app'],
+    category: ['all', 'app', 'react-native'],
   },
   {
     title: 'coinTX',
@@ -43,6 +43,17 @@ const projectList: ProjectDataTypes[] = [
     imageLink:
       'https://github.com/tusharnagar17/codeit/raw/main/public/project/codeit/1.png',
     category: ['all', 'landing page'],
+  },
+  {
+    title: 'myWeather',
+    description:
+      'myWeather is a mobile application built with React Native that helps users easily track their daily weather on the current and weekly.',
+    githubLink: 'https://github.com/tusharnagar17/myWeather',
+    techStack: ['tailwindCSS', 'typescript', 'react-native', 'native-wind'],
+    liveLink: 'https://github.com/tusharnagar17/myWeather',
+    imageLink:
+      'https://github.com/tusharnagar17/myWeather/raw/main/assets/github.jpg',
+    category: ['all', 'react-native'],
   },
 ]
 export default projectList

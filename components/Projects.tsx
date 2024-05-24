@@ -10,7 +10,13 @@ import { DiVim } from 'react-icons/di'
 import { VscGithub } from 'react-icons/vsc'
 import { RxOpenInNewWindow } from 'react-icons/rx'
 
-const categories: string[] = ['all', 'landing Page', 'web2', 'web3']
+const categories: string[] = [
+  'all',
+  'landing Page',
+  // 'web2',
+  // 'web3',
+  'react-native',
+]
 
 export default function Projects() {
   const [selectedId, setSelectedId] = useState<null | string>(null)
@@ -66,11 +72,11 @@ export default function Projects() {
                 alt="profile"
                 width={500}
                 height={500}
-                className="rounded-xl object-fill"
+                className="rounded-xl object-cover h-auto"
               />
 
-              <div className="my-10 text-center">
-                <div className="text-lg  font-bold">
+              <div className="my-auto text-center">
+                <div className="text-lg md:text-2xl  font-bold">
                   {item.title.toUpperCase()}
                 </div>
                 <div className="text-sm font-semibold my-4">

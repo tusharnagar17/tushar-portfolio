@@ -20,8 +20,8 @@ const AboutSection = () => {
           <div className="text-center my-4">
             <div className="my-2 text-xl font-bold">{data.name}</div>
             <div className="my-2 text-md text-gray-700">{data.email}</div>
-            <div className="mt-6 py-2 w-fit px-10 mx-auto  bg-violet-900 rounded-3xl text-white font-bold">
-              Download CV
+            <div className="mt-6 py-2 w-fit px-10 mx-auto  bg-violet-800 rounded-3xl text-white font-bold">
+              <a href="#contact">Hire Me</a>
             </div>
           </div>
         </div>

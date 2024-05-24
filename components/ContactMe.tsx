@@ -41,7 +41,7 @@ export default function ContactMe() {
         <div className="w-full md:max-w-5xl mx-auto p-4 md:p-20 ">
           <div className="text-5xl font-semibold text-center">Contact :</div>
           <div className="md:flex md:justify-between my-10 gap-20">
-            <div>
+            <div className="md:w-[50%]">
               <div className="text-gray-700  my-4  py-2">
                 <p>
                   I am currently probably napping or building something amazing.
@@ -78,28 +78,32 @@ export default function ContactMe() {
                 </div>
               </div>
             </div>
-            <div className="rounded-xl bg-sky-100 border-2 border-blue-400  mt-10 md:mt-0 text-gray-900 px-2 md:px-20 py-10">
+            {/* contact form */}
+            <div className="rounded-xl bg-sky-100 border-2 border-blue-400 md:w-[50%]  mt-10 md:mt-0 text-gray-900 px-2 md:px-10 py-10">
               <form ref={form} onSubmit={sendEmail}>
                 <div className="block w-full">
                   <label className="font-semibold">Name :</label>
+                  <br />
                   <input
                     type="text"
                     name="client_name"
-                    className="outline-none max-w-full md:max-w-lg  hover:ring ring-sky-300 rounded-md border border-1 px-2 py-1 my-2"
+                    className="outline-none w-full  hover:ring ring-sky-300 rounded-md border border-1 px-2 py-1 my-2"
                     required
                   />
                 </div>
                 <div className="block w-full">
                   <label className="font-semibold">Email :</label>
+                  <br />
                   <input
                     type="email"
                     name="client_email"
-                    className="outline-none max-w-full md:max-w-lg hover:ring ring-sky-300 rounded-md border border-1 px-2 py-1 my-2"
+                    className="outline-none w-full hover:ring ring-sky-300 rounded-md border border-1 px-2 py-1 my-2"
                     required
                   />
                 </div>
                 <div className="block w-full">
                   <label className="font-semibold">Message: </label>
+                  <br />
                   <textarea
                     name="client_message"
                     className="outline-none w-full max-w-full md:max-w-lg hover:ring ring-sky-300 rounded-md border border-1 px-2 py-1 my-2"

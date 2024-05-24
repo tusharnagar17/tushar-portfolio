@@ -2,6 +2,20 @@
 @tailwind components;
 @tailwind utilities;
 
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body,
+button,
+input {
+  font-family: 'Josefin Sans', sans-serif;
+}
+
 @layer components {
   .hero-img {
     -webkit-animation: morph 8s ease-in-out infinite;
