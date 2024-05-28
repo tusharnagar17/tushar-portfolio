@@ -12,10 +12,10 @@ import { RxOpenInNewWindow } from 'react-icons/rx'
 
 const categories: string[] = [
   'all',
-  'landing Page',
-  // 'web2',
-  // 'web3',
+  'web2',
   'react-native',
+  'landing Page',
+  // 'web3',
 ]
 
 export default function Projects() {

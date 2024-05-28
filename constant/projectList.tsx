@@ -2,6 +2,25 @@ import ProjectDataTypes from '@/types/interface'
 
 const projectList: ProjectDataTypes[] = [
   {
+    title: 'Chatify',
+    description:
+      'Chatify is a real-time web application for instant messaging, built with Socket.IO and Node.js. This application demonstrates the capabilities of WebSockets to facilitate live, bidirectional communication between users.',
+    githubLink: 'https://github.com/tusharnagar17/chatify',
+    techStack: [
+      'tailwindCSS',
+      'typescript',
+      'react-ts',
+      'express.js',
+      'docker',
+      'node.js',
+      'mongoDB',
+    ],
+    liveLink: 'https://chatify-web.onrender.com',
+    imageLink:
+      'https://github.com/tusharnagar17/chatify/raw/main/readme/fullscreen.JPG',
+    category: ['all', 'web2'],
+  },
+  {
     title: 'React Native Job App',
     description:
       'React-native-job-app is a app built with free RAPID API key. This app helps in listing jobs, search job and add them to favourites. ..',
