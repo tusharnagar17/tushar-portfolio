@@ -59,7 +59,7 @@ const RecentProjects = () => {
   );
 };
 
-const ProjectDiv = ({ item }: {item: ProjectListProps}) => {
+const ProjectDiv = ({ item }: { item: ProjectListProps }) => {
   return (
     <motion.div
       initial={{ opacity: 0, x: -100 }}
@@ -129,6 +129,7 @@ const ProjectDiv = ({ item }: {item: ProjectListProps}) => {
           <div className="flex justify-center items-center">
             <a
               href={item.githubLink}
+              target="_blank"
               className="flex lg:text-xl md:text-xs text-sm text-purple"
             >
               Check Github
@@ -139,6 +140,7 @@ const ProjectDiv = ({ item }: {item: ProjectListProps}) => {
           <div className="flex justify-center items-center">
             <a
               href={item.liveLink}
+              target="_blank"
               className="flex lg:text-xl md:text-xs text-sm text-purple"
             >
               Check Live Site
